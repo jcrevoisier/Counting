@@ -301,8 +301,8 @@ def process_csv(input_csv, output_csv):
         driver.quit()
 
 if __name__ == "__main__":
-    input_csv = "first_20000_facilities.csv"
-    output_csv = "updated_facilities_20000.csv"
+    input_csv = "first_30000_facilities.csv"
+    output_csv = "updated_facilities_30000.csv"
     
     if not os.path.exists(input_csv):
         print(f"Error: File '{input_csv}' not found.")
